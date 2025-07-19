@@ -27,4 +27,7 @@ public class House {
         System.out.println();
 
     }
+    public String toString(){
+        return "House Number : "+houseNumber+"\nHouseType : "+houseType+"\nHouseArea : " +houseArea+"\n";
+    }
 }

@@ -12,6 +12,13 @@ public class Village{
         houses.add(houseNumber);
     }
 
+    public void GetDetails(){
+        for(House details: houses){
+            System.out.println(details);
+        }
+        System.out.println();
+
+    }
     public void noOfHouse(){
         System.out.println("No of house in village:"+houses.size());
     }

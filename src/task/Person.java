@@ -24,7 +24,7 @@ Person(String name,int age,int salary,String gender){
     }
     public String toString() {
         if(document==null){
-            return name+"\nPlease Provide document";
+            return name+"\nPlease Provide document\n";
         }
         String checkTax = "";
         String ageGroup = "";
